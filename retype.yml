@@ -1,0 +1,30 @@
+input: .
+output: .retype
+
+url: docs.votion.money # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Votion
+  logo: static/logos/logo.png
+  logoDark: static/logos/logo-dark.png
+
+favicon: static/logos/favicon.png
+
+links:
+  - text: Launch App
+    link: https://votion.money/
+    target: blank
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links:
+    - text: Twitter
+      link: https://twitter.com/votion_money
+      target: blank
+    - text: Telegram
+      link: https://t.me/votion_money
+      target: blank
